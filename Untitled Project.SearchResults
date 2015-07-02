@@ -1,0 +1,7 @@
+---- zero_pulse Matches (6 in 2 files) ----
+E924-V3903241.c (e:\work\e924\e924-430\e924-430):void zero_pulse(void)  // duanjian     
+E924-V3903241.c (e:\work\e924\e924-430\e924-430):          {//zero_pulse();
+E924-V3903241.c (e:\work\e924\e924-430\e924-430):              zero_pulse();
+E924D-JH.c:void zero_pulse(void)  // duanjian     
+E924D-JH.c:          {//zero_pulse();
+E924D-JH.c:            {zero_pulse();}}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>430/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>174</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>SourceBrowser</Factory></Window></Windows></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>723</ColumnWidth1><ColumnWidth2>193</ColumnWidth2><ColumnWidth3>48</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>965</ColumnWidth1></Debug-Log>
+      <TerminalIO/>
+    <Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>159</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>748</ColumnWidth2></Find-in-Files><SourceBrowser><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></SourceBrowser><Breakpoints><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Breakpoints></Static>
+    <Windows>
+      
+      
+    <Wnd3><Tabs><Tab><Identity>TabID-13033-7225</Identity><TabName>Source Browser</TabName><Factory>SourceBrowser</Factory><Session><TypeFilter>2147483647</TypeFilter><FileFilter>1</FileFilter></Session></Tab><Tab><Identity>TabID-10712-7473</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>430</ExpandedNode><ExpandedNode>430/E924D-JH.c</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-8621-7513</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-19166-15905</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-8170-27183</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\E924D-JH.c</Filename><XPos>0</XPos><YPos>355</YPos><SelStart>18187</SelStart><SelEnd>18190</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Pane/><Sizes><Pane><X>1000000</X><Y>921760</Y></Pane><Pane><X>1000000</X><Y>78239</Y></Pane></Sizes><SplitMode>2</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00a7bac8><key>iaridepm.enu1</key></Toolbar-00a7bac8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>363</Bottom><Right>265</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>195313</sizeHorzCX><sizeHorzCY>288600</sizeHorzCY><sizeVertCX>260742</sizeVertCX><sizeVertCY>526696</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>154</Bottom><Right>1026</Right><x>-2</x><y>-2</y><xscreen>1028</xscreen><yscreen>156</yscreen><sizeHorzCX>1003906</sizeHorzCX><sizeHorzCY>225108</sizeHorzCY><sizeVertCX>195313</sizeVertCX><sizeVertCY>288600</sizeVertCY></Rect></Wnd4></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>152</Top><Left>-2</Left><Bottom>286</Bottom><Right>1026</Right><x>-2</x><y>152</y><xscreen>1028</xscreen><yscreen>134</yscreen><sizeHorzCX>1003906</sizeHorzCX><sizeHorzCY>193362</sizeHorzCY><sizeVertCX>195313</sizeVertCX><sizeVertCY>288600</sizeVertCY></Rect></Wnd5></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
