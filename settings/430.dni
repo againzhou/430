@@ -21,16 +21,16 @@ ByteLimit=50
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-969497764
+Checksum=2044800296
 [State Storage]
-Control Register=17219
+Control Register=0
 [Sequencer]
-Control Register=17219
-NextState0=17219
-NextState1=17219
+Control Register=0
+NextState0=0
+NextState1=0
 [Action Register]
-Break=3
-State Storage=3
+Break=0
+State Storage=0
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -40,18 +40,40 @@ Enabled=_ 0
 Enabled=_ 0
 [Profiling]
 Enabled=0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
 Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.3827.7@1" 1 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.3155.10@1" 1 0 0 0 "" 0 ""
-Bp2=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.5548.5@1" 1 0 0 0 "" 0 ""
-Bp3=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.5678.10@1" 1 0 0 0 "" 0 ""
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.4378.6" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.3932.15" 1 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.4320.6" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\E924D-JH.c}.4358.7" 1 0 0 0 "" 0 ""
 Count=4
 [FET]
 Extended Clock mode=-1
