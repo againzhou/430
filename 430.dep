@@ -2,81 +2,36 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>933896137</fileChecksum>
+  <fileChecksum>1962554884</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
+      <file>$PROJ_DIR$\E924D-JH.c</file>
       <file>$PROJ_DIR$\Hquxian-v31.c</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F147.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\E924D-JH.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Hquxian-v31.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Hquxian-v31.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\E924D-JH.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
       <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
       <file>$PROJ_DIR$\Debug\Exe\430.txt</file>
-      <file>$PROJ_DIR$\Debug\Obj\430.pbd</file>
       <file>$TOOLKIT_DIR$\inc\msp430x14x.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Hquxian-v31.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\E924D-JH.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\E924D-JH.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\Hquxian-v31.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$PROJ_DIR$\readme.txt</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\E924D-JH.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\430.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F147.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\430.ulp</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\Hquxian-v31.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 12</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 17</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 10 3 20 1 18 11 6 21 15 22 4 5</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 8</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\430.txt</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 2 7 16 17 14</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Obj\430.pbd</name>
-      <inputs>
-        <tool>
-          <name>BILINK</name>
-          <file> 13 12</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\E924D-JH.c</name>
       <outputs>
@@ -86,15 +41,64 @@
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 16</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>BICOMP</name>
+          <file> 18 21 5 22 7 19 15 4 9 3 12 14</file>
+        </tool>
+        <tool>
           <name>ICC430</name>
-          <file> 10 3 20 1 18 11 6 21 15 22 4 5</file>
+          <file> 18 21 5 22 7 19 15 4 9 3 12 14</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Hquxian-v31.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 21 5 22 7 19 15 4 9 3 12 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 21 5 22 7 19 15 4 9 3 12 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\430.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 16 6 8 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
     </file>
   </configuration>
   <configuration>

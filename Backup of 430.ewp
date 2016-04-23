@@ -10,9 +10,9 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>11</archiveVersion>
+      <archiveVersion>7</archiveVersion>
       <data>
-        <version>28</version>
+        <version>27</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -30,6 +30,10 @@
         <option>
           <name>ListPath</name>
           <state>Debug\List</state>
+        </option>
+        <option>
+          <name>PosIndCode</name>
+          <state>0</state>
         </option>
         <option>
           <name>Hardware Multiplier</name>
@@ -66,8 +70,8 @@
         </option>
         <option>
           <name>Input variant</name>
-          <version>1</version>
-          <state>2</state>
+          <version>0</version>
+          <state>1</state>
         </option>
         <option>
           <name>Input description</name>
@@ -75,8 +79,8 @@
         </option>
         <option>
           <name>Output variant</name>
-          <version>1</version>
-          <state>2</state>
+          <version>0</version>
+          <state>1</state>
         </option>
         <option>
           <name>Output description</name>
@@ -145,21 +149,13 @@
           <name>RadioL092ModelType</name>
           <state>0</state>
         </option>
-        <option>
-          <name>Ropi</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>NoRwDynamicInit</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC430</name>
       <archiveVersion>4</archiveVersion>
       <data>
-        <version>34</version>
+        <version>29</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -292,6 +288,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CPIC</name>
+          <state>1</state>
+        </option>
+        <option>
           <name>IExtraOptionsCheck</name>
           <state>0</state>
         </option>
@@ -387,63 +387,7 @@
           <state>1</state>
         </option>
         <option>
-          <name>CCPUTAG</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CCCodeFunctions</name>
-          <state>CODE</state>
-        </option>
-        <option>
-          <name>CCData16</name>
-          <state>DATA</state>
-        </option>
-        <option>
-          <name>CCData20</name>
-          <state>DATA</state>
-        </option>
-        <option>
-          <name>CCIntvec</name>
-          <state>INTVEC</state>
-        </option>
-        <option>
-          <name>CCCstack</name>
-          <state>CSTACK</state>
-        </option>
-        <option>
-          <name>CCRamFuncCode</name>
-          <state>RAMFUNC_CODE</state>
-        </option>
-        <option>
-          <name>CCIsrCode</name>
-          <state>ISR_CODE</state>
-        </option>
-        <option>
-          <name>CCDifunct</name>
-          <state>DIFUNCT</state>
-        </option>
-        <option>
-          <name>IccCppInlineSemantics</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccStaticDestr</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccFloatSemantics</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>CROPI</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CNoRwDynamicInit</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CCOptimizationNoSizeConstraints</name>
+          <name>IccRelaxedFpPrecision</name>
           <state>0</state>
         </option>
       </data>
@@ -635,7 +579,7 @@
       <name>XLINK</name>
       <archiveVersion>4</archiveVersion>
       <data>
-        <version>23</version>
+        <version>22</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -802,15 +746,15 @@
         </option>
         <option>
           <name>DebugInformation</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>RuntimeControl</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IoEmulation</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>XcRTLibraryFile</name>
@@ -910,11 +854,6 @@
           <name>XLibraryHeap20</name>
           <state>1</state>
         </option>
-        <option>
-          <name>CrcUnitSize</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -939,36 +878,6 @@
       </data>
     </settings>
     <settings>
-      <name>ULP430</name>
-      <archiveVersion>1</archiveVersion>
-      <data>
-        <version>1</version>
-        <wantNonLocal>1</wantNonLocal>
-        <debug>1</debug>
-        <option>
-          <name>CUTest</name>
-          <state>###Uninitialized###</state>
-        </option>
-        <option>
-          <name>ULPRules</name>
-          <version>0</version>
-          <state>1111111111111111111</state>
-        </option>
-        <option>
-          <name>ULPEnable</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OutputFile</name>
-          <state></state>
-        </option>
-        <option>
-          <name>ULPStatus</name>
-          <state>1</state>
-        </option>
-      </data>
-    </settings>
-    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -982,9 +891,9 @@
     <debug>0</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>11</archiveVersion>
+      <archiveVersion>7</archiveVersion>
       <data>
-        <version>28</version>
+        <version>27</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1002,6 +911,10 @@
         <option>
           <name>ListPath</name>
           <state>Release\List</state>
+        </option>
+        <option>
+          <name>PosIndCode</name>
+          <state>0</state>
         </option>
         <option>
           <name>Hardware Multiplier</name>
@@ -1038,8 +951,8 @@
         </option>
         <option>
           <name>Input variant</name>
-          <version>1</version>
-          <state>2</state>
+          <version>0</version>
+          <state>1</state>
         </option>
         <option>
           <name>Input description</name>
@@ -1047,8 +960,8 @@
         </option>
         <option>
           <name>Output variant</name>
-          <version>1</version>
-          <state>2</state>
+          <version>0</version>
+          <state>1</state>
         </option>
         <option>
           <name>Output description</name>
@@ -1117,21 +1030,13 @@
           <name>RadioL092ModelType</name>
           <state>0</state>
         </option>
-        <option>
-          <name>Ropi</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>NoRwDynamicInit</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC430</name>
       <archiveVersion>4</archiveVersion>
       <data>
-        <version>34</version>
+        <version>29</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1264,6 +1169,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CPIC</name>
+          <state>1</state>
+        </option>
+        <option>
           <name>IExtraOptionsCheck</name>
           <state>0</state>
         </option>
@@ -1359,63 +1268,7 @@
           <state>1</state>
         </option>
         <option>
-          <name>CCPUTAG</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CCCodeFunctions</name>
-          <state>CODE</state>
-        </option>
-        <option>
-          <name>CCData16</name>
-          <state>DATA</state>
-        </option>
-        <option>
-          <name>CCData20</name>
-          <state>DATA</state>
-        </option>
-        <option>
-          <name>CCIntvec</name>
-          <state>INTVEC</state>
-        </option>
-        <option>
-          <name>CCCstack</name>
-          <state>CSTACK</state>
-        </option>
-        <option>
-          <name>CCRamFuncCode</name>
-          <state>RAMFUNC_CODE</state>
-        </option>
-        <option>
-          <name>CCIsrCode</name>
-          <state>ISR_CODE</state>
-        </option>
-        <option>
-          <name>CCDifunct</name>
-          <state>DIFUNCT</state>
-        </option>
-        <option>
-          <name>IccCppInlineSemantics</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccStaticDestr</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccFloatSemantics</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>CROPI</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CNoRwDynamicInit</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CCOptimizationNoSizeConstraints</name>
+          <name>IccRelaxedFpPrecision</name>
           <state>0</state>
         </option>
       </data>
@@ -1607,7 +1460,7 @@
       <name>XLINK</name>
       <archiveVersion>4</archiveVersion>
       <data>
-        <version>23</version>
+        <version>22</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1882,11 +1735,6 @@
           <name>XLibraryHeap20</name>
           <state>1</state>
         </option>
-        <option>
-          <name>CrcUnitSize</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -1907,36 +1755,6 @@
         <option>
           <name>OutputFile</name>
           <state></state>
-        </option>
-      </data>
-    </settings>
-    <settings>
-      <name>ULP430</name>
-      <archiveVersion>1</archiveVersion>
-      <data>
-        <version>1</version>
-        <wantNonLocal>1</wantNonLocal>
-        <debug>0</debug>
-        <option>
-          <name>CUTest</name>
-          <state>###Uninitialized###</state>
-        </option>
-        <option>
-          <name>ULPRules</name>
-          <version>0</version>
-          <state>1111111111111111111</state>
-        </option>
-        <option>
-          <name>ULPEnable</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OutputFile</name>
-          <state></state>
-        </option>
-        <option>
-          <name>ULPStatus</name>
-          <state>1</state>
         </option>
       </data>
     </settings>
